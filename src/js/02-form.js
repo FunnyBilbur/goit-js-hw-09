@@ -39,3 +39,19 @@ form.addEventListener('input', debounce(() => {
     }
     localStorage.setItem(Feedback_Storage_Key, JSON.stringify(data));
 }, 250));
+
+
+
+
+// const promise = new Promise(resolse, reject);
+// function resolse(params) {
+//     console.log('Resolved');
+
+// }
+
+// function reject(params) {
+//     console.log('Rejected');
+
+// }
+
+// promise.then(onResolve, onReject);
